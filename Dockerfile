@@ -1,6 +1,6 @@
 # This is a multi-stage build. First we are going to compile and then
 # create a small image for runtime.
-FROM http://public.ecr.aws/docker/library/golang:1.14.11
+FROM public.ecr.aws/docker/library/golang:1.14.11
 
 
 RUN mkdir -p /go/src/github.com/eks-workshop-sample-api-service-go
