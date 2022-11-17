@@ -2,6 +2,7 @@
 # create a small image for runtime.
 FROM http://public.ecr.aws/docker/library/golang:1.14.11
 
+
 RUN mkdir -p /go/src/github.com/eks-workshop-sample-api-service-go
 WORKDIR /go/src/github.com/eks-workshop-sample-api-service-go
 RUN useradd -u 10001 app
